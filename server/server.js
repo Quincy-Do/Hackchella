@@ -5,7 +5,7 @@ var nonprofit = require('./models/nonprofit');
 var organization = require('./models/organizations');
 var app= express();
 var config = require('./config.json')
-mongoose.connect(`mongodb://${config.dbUSer}:${config.dbPassword}@ds119489.mlab.com:19489/hackchella`)
+mongoose.connect(`mongodb://${config.dbUser}:${config.dbPassword}@ds119489.mlab.com:19489/hackchella`)
 
 app.use(function(req, res, next) {
   // Website you wish to allow to connect
@@ -24,11 +24,15 @@ app.use(function(req, res, next) {
 app.use(bodyParser.urlencoded());
 app.use(bodyParser.json());
 
-
-
-
 app.get('/',function(req,res){
-  
-})
+
+});
+
+app.post('/',function(req,res){
+
+});
+
+
+
 var port = 3000;
-app.list(port);
+app.listen(port);
