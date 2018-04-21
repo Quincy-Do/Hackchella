@@ -1,5 +1,8 @@
 {
+  "name": "food",
+  "displayName": "food",
   "expo": {
-    "sdkVersion": "26.0.0"
+    "sdkVersion": "26.0.0",
+    "name": "food"
   }
 }

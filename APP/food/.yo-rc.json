@@ -1,0 +1,9 @@
+{
+  "*": {
+    "promptValues": {
+      "app": "food",
+      "sdkVersion": "26.0.0",
+      "install": true
+    }
+  }
+}
