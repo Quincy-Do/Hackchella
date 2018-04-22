@@ -1,21 +1,2 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-
-const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: '#fff',
-      alignItems: 'center',
-      justifyContent: 'center',
-    },
-});
-
-export default class App extends React.Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text>Welcome! Please, use the Expo App to view your app.</Text>
-      </View>
-    );
-  }
-}
+import App from './src/app';
+export default App;

@@ -21,9 +21,13 @@
     "expo": "^26.0.0",
     "jest": "^22.4.3",
     "jest-cli": "^22.4.3",
+    "native-base": "^2.4.2",
     "react": "^16.3.0-alpha.2",
     "react-native": "github:expo/react-native#sdk-26.0.0",
+    "react-native-easy-grid": "^0.1.17",
+    "react-native-elements": "^0.19.1",
     "react-native-scripts": "^1.13.2",
+    "react-navigation": "^1.5.11",
     "react-test-renderer": "^16.3.2"
   },
   "devDependencies": {
